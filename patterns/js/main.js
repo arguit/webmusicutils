@@ -40,7 +40,11 @@ var structures = {
     "Dominant 7th"  : { definition: [ 0, 4, 7, 10 ], intervals: [ "1", "3", "5", "b7" ] },
     "Major Scale" : { definition: [ 0, 2, 4, 5, 7, 9, 11 ], intervals: [ "1", "2", "3", "4", "5", "6", "7" ] },
     "Natural Minor Scale" : { definition: [ 0, 2, 3, 5, 7, 8, 10 ], intervals: [ "1", "2", "b3", "4", "5", "b6", "b7" ] },
-    "Mixolydian Scale" : { definition: [ 0, 2, 4, 5, 7, 9, 10 ], intervals: [ "1", "2", "3", "4", "5", "6", "b7" ] }
+    "Mixolydian Scale" : { definition: [ 0, 2, 4, 5, 7, 9, 10 ], intervals: [ "1", "2", "3", "4", "5", "6", "b7" ] },    
+    "Major Pentatonic Scale" : { definition: [ 0, 2, 4, 7, 9 ], intervals: [ "1", "2", "3", "5", "6" ] },
+    "Minor Pentatonic Scale" : { definition: [ 0, 3, 5, 7, 10 ], intervals: [ "1", "b3", "4", "5", "b7" ] },
+    "Blues Scale" : { definition: [ 0, 3, 5, 6, 7, 10 ], intervals: [ "1", "b3", "4", "b5", "5", "b7" ] },
+    "Jazz Minor Scale" : { definition: [ 0, 2, 3, 5, 7, 9, 11 ], intervals: [ "1", "2", "b3", "4", "5", "6", "7" ] }
 }
 
 var OCTAVE = [ "c", "c#", "d", "d#", "e", "f", "f#", "g", "g#", "a", "a#", "b" ];
