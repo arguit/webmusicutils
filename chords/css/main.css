@@ -1,0 +1,44 @@
+/*basic reset*/
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: Ubuntu Mono;
+}
+
+body {
+    background:	#fff;
+    zoom : 100vh;
+}
+
+.label {
+    left: 20px;
+    top: 10px;
+    position: absolute;
+}
+
+.timer {
+    left: 20px;
+    top: 26px;
+    position: absolute;
+    width: 280px;
+    height: 2px;
+    /*background-color: #0f0;*/
+}
+
+.controls {
+    left: 20px;
+    top: 120px;
+    width: 280px;
+    position: absolute;
+}
+
+.controlsBox {
+    background-color: #fff;
+    border: dashed 2px #ccc;
+    padding: 1em;
+    margin-top: 5px;
+}
+
+#timeRange {
+    width: 100%;
+}

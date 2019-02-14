@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width, initial-scale=1, user-scalable=yes">
+    <title>Chords</title>
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Ubuntu+Mono" />
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+     
+    <div id="label" class="label"></div>
+    <canvas id="timer" class="timer"></canvas>
+    <div id="main"></div>
+    <div id="controlsBoxTime" class="controls">
+      <br>
+      <p>Time to play/memorize the chord: <span id="time">5</span></p>
+      <div class="controlsBox">
+      <input id="timeRange" type="range" min="1" max="30" value="5">
+      </div>
+      <br>
+      <br>
+      <p>Chord types</p>
+      <div id="controlsBoxChords" class="controlsBox">
+        <input id="cheese" type="checkbox" name="chord" value="M" checked="checked"/>
+        <label for="cheese">Major</label>
+        <br />
+        <input id="olives" type="checkbox" name="chord" value="m" checked="checked"/>
+        <label for="olives">Minor</label>
+        <br />
+        <input id="pepperoni" type="checkbox" name="chord" value="M7" checked="checked"/>
+        <label for="pepperoni">Major 7</label>
+        <br />
+        <input id="anchovies" type="checkbox" name="chord" value="m7" checked="checked"/>
+        <label for="anchovies">Minor 7</label>
+        <br />
+        <input id="anchovies" type="checkbox" name="chord" value="7" checked="checked"/>
+        <label for="anchovies">Dominant 7</label>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery-2.2.2.min.js"></script>
+    <script type="text/javascript" src="js/easeljs-0.8.2.min.js"></script>
+    <script type="text/javascript" src="js/tweenjs-0.6.2.min.js"></script>
+    <script type="text/javascript" src="js/vexflow-min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
